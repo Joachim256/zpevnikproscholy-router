@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Přidat do Zpěvníku pro scholy</title>
+</head>
+<body>
+	<a id="link">Přidat do Zpěvníku pro scholy</a>
+	<script>
+		document.querySelector("#link").href = `pro-scholy://zpevnik/add_playlist${location.search}`;
+	</script>
+</body>
+</html>
